@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="BOGGLE GAME"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+              <Component id="jPanel2" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel2" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="66" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="418" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" pref="319" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="476" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="jButton17" min="-2" pref="113" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="157" max="-2" attributes="0"/>
+                                  <Component id="jButton18" min="-2" pref="131" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jScrollPane2" min="-2" pref="280" max="-2" attributes="0"/>
+                                      <Component id="jLabel3" min="-2" pref="301" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jPanel1" min="-2" pref="519" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel2" min="-2" pref="289" max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" alignment="1" min="-2" pref="289" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="544" max="-2" attributes="0"/>
+                  <Component id="jButton19" min="-2" pref="131" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel1" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel2" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                              <Component id="jLabel3" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jPanel1" min="-2" pref="518" max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" min="-2" pref="518" max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" min="-2" pref="518" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jButton17" min="-2" pref="63" max="-2" attributes="0"/>
+                      <Component id="jButton18" min="-2" pref="63" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="19" max="32767" attributes="0"/>
+                  <Component id="jButton19" min="-2" pref="42" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Palatino Linotype" size="18" style="0"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="66" green="66" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+            <Property name="columns" type="int" value="4"/>
+            <Property name="rows" type="int" value="4"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Swis721 Blk BT" size="18" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="g"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Swis721 Blk BT" size="18" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="k"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton9">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Swis721 Blk BT" size="18" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="j"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton9ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Swis721 BlkEx BT" size="18" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="h"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton7">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Swis721 Blk BT" size="18" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="d"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton13">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Swis721 Blk BT" size="18" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="i"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton13ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton12">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Swis721 Blk BT" size="18" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="l"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton12ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton14">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Swis721 Blk BT" size="18" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="o"/>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton14ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton11">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Swis721 Blk BT" size="18" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="p"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton11ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton10">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Swis721 Blk BT" size="18" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="h"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton10ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Swis721 Blk BT" size="18" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="c"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton8ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Swis721 Blk BT" size="18" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="w"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Swis721 Blk BT" size="18" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="o"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Swis721 Blk BT" size="18" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="p"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton15">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Swis721 Blk BT" size="18" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="k"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton15ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton16">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Swis721 Blk BT" size="18" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="a"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton16ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tempus Sans ITC" size="24" style="3"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="COMPUTER WORDS"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton18">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tempus Sans ITC" size="18" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="SHUFFLE"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton18ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton17">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tempus Sans ITC" size="24" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="OK"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton17ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Microsoft Himalaya" size="48" style="2"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="BOGGLE GAME"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tempus Sans ITC" size="24" style="3"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="YOUR WORDS"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea2">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Palatino Linotype" size="18" style="0"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="ability&#xa;able&#xa;about&#xa;above&#xa;accept&#xa;according&#xa;account&#xa;across&#xa;act&#xa;action&#xa;activity&#xa;actually&#xa;add&#xa;address&#xa;administration&#xa;admit&#xa;adult&#xa;affect&#xa;after&#xa;again&#xa;against&#xa;age&#xa;agency&#xa;agent&#xa;ago&#xa;agree&#xa;agreement&#xa;ahead&#xa;air&#xa;all&#xa;allow&#xa;almost&#xa;alone&#xa;along&#xa;already&#xa;also&#xa;although&#xa;always&#xa;american&#xa;among&#xa;amount&#xa;analysis&#xa;and&#xa;animal&#xa;another&#xa;answer&#xa;any&#xa;anyone&#xa;anything&#xa;appear&#xa;apply&#xa;approach&#xa;area&#xa;argue&#xa;arm&#xa;around&#xa;arrive&#xa;art&#xa;article&#xa;artist&#xa;as&#xa;ask&#xa;assume&#xa;at&#xa;attack&#xa;attention&#xa;attorney&#xa;audience&#xa;author&#xa;authority&#xa;available&#xa;avoid&#xa;away&#xa;baby&#xa;back&#xa;bad&#xa;bag&#xa;ball&#xa;bank&#xa;bar&#xa;base&#xa;be&#xa;beat&#xa;beautiful&#xa;because&#xa;become&#xa;bed&#xa;before&#xa;begin&#xa;behavior&#xa;behind&#xa;believe&#xa;benefit&#xa;best&#xa;better&#xa;between&#xa;beyond&#xa;big&#xa;bill&#xa;billion&#xa;bit&#xa;black&#xa;blood&#xa;blue&#xa;board&#xa;body&#xa;book&#xa;born&#xa;both&#xa;box&#xa;boy&#xa;break&#xa;bring&#xa;brother&#xa;budget&#xa;build&#xa;building&#xa;business&#xa;but&#xa;buy&#xa;by&#xa;call&#xa;camera&#xa;campaign&#xa;can&#xa;cancer&#xa;candidate&#xa;capital&#xa;car&#xa;card&#xa;care&#xa;career&#xa;carry&#xa;case&#xa;catch&#xa;cause&#xa;cell&#xa;center&#xa;central&#xa;century&#xa;certain&#xa;certainly&#xa;chair&#xa;challenge&#xa;chance&#xa;change&#xa;character&#xa;charge&#xa;check&#xa;child&#xa;choice&#xa;choose&#xa;church&#xa;citizen&#xa;city&#xa;civil&#xa;claim&#xa;class&#xa;clear&#xa;clearly&#xa;close&#xa;coach&#xa;cold&#xa;collection&#xa;college&#xa;color&#xa;come&#xa;commercial&#xa;common&#xa;community&#xa;company&#xa;compare&#xa;computer&#xa;concern&#xa;condition&#xa;conference&#xa;congress&#xa;consider&#xa;consumer&#xa;contain&#xa;continue&#xa;control&#xa;cost&#xa;could&#xa;country&#xa;couple&#xa;course&#xa;court&#xa;cover&#xa;create&#xa;crime&#xa;cultural&#xa;culture&#xa;cup&#xa;current&#xa;customer&#xa;cut&#xa;dark&#xa;data&#xa;daughter&#xa;day&#xa;dead&#xa;deal&#xa;death&#xa;debate&#xa;decade&#xa;decide&#xa;decision&#xa;deep&#xa;defense&#xa;degree&#xa;democrat&#xa;democratic&#xa;describe&#xa;design&#xa;despite&#xa;detail&#xa;determine&#xa;develop&#xa;development&#xa;die&#xa;difference&#xa;different&#xa;difficult&#xa;dinner&#xa;direction&#xa;director&#xa;discover&#xa;discuss&#xa;discussion&#xa;disease&#xa;do&#xa;doctor&#xa;dog&#xa;door&#xa;down&#xa;draw&#xa;dream&#xa;drive&#xa;drop&#xa;drug&#xa;during&#xa;each&#xa;early&#xa;east&#xa;easy&#xa;eat&#xa;economic&#xa;economy&#xa;edge&#xa;education&#xa;effect&#xa;effort&#xa;eight&#xa;either&#xa;election&#xa;else&#xa;employee&#xa;end&#xa;energy&#xa;enjoy&#xa;enough&#xa;enter&#xa;entire&#xa;environment&#xa;environmental&#xa;especially&#xa;establish&#xa;even&#xa;evening&#xa;event&#xa;ever&#xa;every&#xa;everybody&#xa;everyone&#xa;everything&#xa;evidence&#xa;exactly&#xa;example&#xa;executive&#xa;exist&#xa;expect&#xa;experience&#xa;expert&#xa;explain&#xa;eye&#xa;face&#xa;fact&#xa;factor&#xa;fail&#xa;fall&#xa;family&#xa;far&#xa;fast&#xa;father&#xa;fear&#xa;federal&#xa;feel&#xa;feeling&#xa;few&#xa;field&#xa;fight&#xa;figure&#xa;fill&#xa;film&#xa;final&#xa;finally&#xa;financial&#xa;find&#xa;fine&#xa;finger&#xa;finish&#xa;fire&#xa;firm&#xa;first&#xa;fish&#xa;five&#xa;floor&#xa;fly&#xa;focus&#xa;follow&#xa;food&#xa;foot&#xa;for&#xa;force&#xa;foreign&#xa;forget&#xa;form&#xa;former&#xa;forward&#xa;four&#xa;free&#xa;friend&#xa;from&#xa;front&#xa;full&#xa;fund&#xa;future&#xa;game&#xa;garden&#xa;gas&#xa;general&#xa;generation&#xa;get&#xa;girl&#xa;give&#xa;glass&#xa;go&#xa;goal&#xa;good&#xa;government&#xa;great&#xa;green&#xa;ground&#xa;group&#xa;grow&#xa;growth&#xa;guess&#xa;gun&#xa;guy&#xa;hair&#xa;half&#xa;hand&#xa;hang&#xa;happen&#xa;happy&#xa;hard&#xa;have&#xa;he&#xa;head&#xa;health&#xa;hear&#xa;heart&#xa;heat&#xa;heavy&#xa;help&#xa;her&#xa;here&#xa;herself&#xa;high&#xa;him&#xa;himself&#xa;his&#xa;history&#xa;hit&#xa;hold&#xa;home&#xa;hope&#xa;hospital&#xa;hot&#xa;hotel&#xa;hour&#xa;house&#xa;how&#xa;however&#xa;huge&#xa;human&#xa;hundred&#xa;husband&#xa;i&#xa;idea&#xa;identify&#xa;if&#xa;image&#xa;imagine&#xa;impact&#xa;important&#xa;improve&#xa;in&#xa;include&#xa;including&#xa;increase&#xa;indeed&#xa;indicate&#xa;individual&#xa;industry&#xa;information&#xa;inside&#xa;instead&#xa;institution&#xa;interest&#xa;interesting&#xa;international&#xa;interview&#xa;into&#xa;investment&#xa;involve&#xa;issue&#xa;it&#xa;item&#xa;its&#xa;itself&#xa;job&#xa;join&#xa;just&#xa;keep&#xa;key&#xa;kid&#xa;kill&#xa;kind&#xa;kitchen&#xa;know&#xa;knowledge&#xa;land&#xa;language&#xa;large&#xa;last&#xa;late&#xa;later&#xa;laugh&#xa;law&#xa;lawyer&#xa;lay&#xa;lead&#xa;leader&#xa;learn&#xa;least&#xa;leave&#xa;left&#xa;leg&#xa;legal&#xa;less&#xa;let&#xa;letter&#xa;level&#xa;lie&#xa;life&#xa;light&#xa;like&#xa;likely&#xa;line&#xa;list&#xa;listen&#xa;little&#xa;live&#xa;local&#xa;long&#xa;look&#xa;lose&#xa;loss&#xa;lot&#xa;love&#xa;low&#xa;machine&#xa;magazine&#xa;main&#xa;maintain&#xa;major&#xa;majority&#xa;make&#xa;man&#xa;manage&#xa;management&#xa;manager&#xa;many&#xa;market&#xa;marriage&#xa;material&#xa;matter&#xa;may&#xa;maybe&#xa;me&#xa;mean&#xa;measure&#xa;media&#xa;medical&#xa;meet&#xa;meeting&#xa;member&#xa;memory&#xa;mention&#xa;message&#xa;method&#xa;middle&#xa;might&#xa;military&#xa;million&#xa;mind&#xa;minute&#xa;miss&#xa;mission&#xa;model&#xa;modern&#xa;moment&#xa;money&#xa;month&#xa;more&#xa;morning&#xa;most&#xa;mother&#xa;mouth&#xa;move&#xa;movement&#xa;movie&#xa;much&#xa;music&#xa;must&#xa;my&#xa;myself&#xa;name&#xa;nation&#xa;national&#xa;natural&#xa;nature&#xa;near&#xa;nearly&#xa;necessary&#xa;need&#xa;network&#xa;never&#xa;new&#xa;news&#xa;newspaper&#xa;next&#xa;nice&#xa;night&#xa;no&#xa;none&#xa;nor&#xa;north&#xa;not&#xa;note&#xa;nothing&#xa;notice&#xa;now&#xa;number&#xa;occur&#xa;of&#xa;off&#xa;offer&#xa;office&#xa;officer&#xa;official&#xa;often&#xa;oh&#xa;oil&#xa;ok&#xa;okey&#xa;old&#xa;on&#xa;once&#xa;one&#xa;only&#xa;onto&#xa;open&#xa;operation&#xa;opportunity&#xa;option&#xa;or&#xa;order&#xa;organization&#xa;other&#xa;others&#xa;our&#xa;out&#xa;outside&#xa;over&#xa;own&#xa;owner&#xa;page&#xa;pain&#xa;painting&#xa;paper&#xa;parent&#xa;part&#xa;participant&#xa;particular&#xa;particularly&#xa;partner&#xa;party&#xa;pass&#xa;past&#xa;patient&#xa;pattern&#xa;pay&#xa;peace&#xa;people&#xa;per&#xa;perform&#xa;performance&#xa;perhaps&#xa;period&#xa;person&#xa;personal&#xa;phone&#xa;physical&#xa;pick&#xa;picture&#xa;piece&#xa;place&#xa;plan&#xa;plant&#xa;play&#xa;player&#xa;point&#xa;police&#xa;policy&#xa;political&#xa;politics&#xa;poor&#xa;popular&#xa;population&#xa;position&#xa;positive&#xa;possible&#xa;power&#xa;practice&#xa;prepare&#xa;present&#xa;president&#xa;pressure&#xa;pretty&#xa;prevent&#xa;price&#xa;private&#xa;probably&#xa;problem&#xa;process&#xa;produce&#xa;product&#xa;production&#xa;professional&#xa;professor&#xa;program&#xa;project&#xa;property&#xa;protect&#xa;prove&#xa;provide&#xa;public&#xa;pull&#xa;purpose&#xa;push&#xa;put&#xa;quality&#xa;question&#xa;quickly&#xa;quite&#xa;race&#xa;radio&#xa;raise&#xa;range&#xa;rate&#xa;rather&#xa;reach&#xa;read&#xa;ready&#xa;real&#xa;reality&#xa;realize&#xa;really&#xa;reason&#xa;receive&#xa;recent&#xa;recently&#xa;recognize&#xa;record&#xa;red&#xa;reduce&#xa;reflect&#xa;region&#xa;relate&#xa;relationship&#xa;religious&#xa;remain&#xa;remember&#xa;remove&#xa;report&#xa;represent&#xa;republican&#xa;require&#xa;research&#xa;resource&#xa;respond&#xa;response&#xa;responsibility&#xa;rest&#xa;result&#xa;return&#xa;reveal&#xa;rich&#xa;right&#xa;rise&#xa;risk&#xa;road&#xa;rock&#xa;role&#xa;room&#xa;rule&#xa;run&#xa;safe&#xa;same&#xa;save&#xa;say&#xa;scene&#xa;school&#xa;science&#xa;scientist&#xa;score&#xa;sea&#xa;season&#xa;seat&#xa;second&#xa;section&#xa;security&#xa;see&#xa;seek&#xa;seem&#xa;sell&#xa;send&#xa;senior&#xa;sense&#xa;series&#xa;serious&#xa;serve&#xa;service&#xa;set&#xa;seven&#xa;several&#xa;sex&#xa;sexual&#xa;shake&#xa;share&#xa;she&#xa;shoot&#xa;short&#xa;shot&#xa;should&#xa;shoulder&#xa;show&#xa;side&#xa;sign&#xa;significant&#xa;similar&#xa;simple&#xa;simply&#xa;since&#xa;sing&#xa;single&#xa;sister&#xa;sit&#xa;site&#xa;situation&#xa;six&#xa;size&#xa;skill&#xa;skin&#xa;small&#xa;smile&#xa;so&#xa;social&#xa;society&#xa;soldier&#xa;some&#xa;somebody&#xa;someone&#xa;something&#xa;sometimes&#xa;son&#xa;song&#xa;soon&#xa;sort&#xa;sound&#xa;source&#xa;south&#xa;southern&#xa;space&#xa;speak&#xa;special&#xa;specific&#xa;speech&#xa;spend&#xa;sport&#xa;spring&#xa;staff&#xa;stage&#xa;stand&#xa;standard&#xa;star&#xa;start&#xa;state&#xa;statement&#xa;station&#xa;stay&#xa;step&#xa;still&#xa;stock&#xa;stop&#xa;store&#xa;story&#xa;strategy&#xa;street&#xa;strong&#xa;structure&#xa;student&#xa;study&#xa;stuff&#xa;style&#xa;subject&#xa;success&#xa;successful&#xa;such&#xa;suddenly&#xa;suffer&#xa;suggest&#xa;summer&#xa;support&#xa;sure&#xa;surface&#xa;system&#xa;table&#xa;take&#xa;talk&#xa;task&#xa;tax&#xa;teach&#xa;teacher&#xa;team&#xa;technology&#xa;television&#xa;tell&#xa;ten&#xa;tend&#xa;term&#xa;test&#xa;than&#xa;thank&#xa;that&#xa;the&#xa;their&#xa;them&#xa;themselves&#xa;then&#xa;theory&#xa;there&#xa;these&#xa;they&#xa;thing&#xa;think&#xa;third&#xa;this&#xa;those&#xa;though&#xa;thought&#xa;thousand&#xa;threat&#xa;three&#xa;through&#xa;throughout&#xa;throw&#xa;thus&#xa;time&#xa;to&#xa;today&#xa;together&#xa;tonight&#xa;too&#xa;top&#xa;total&#xa;tough&#xa;toward&#xa;town&#xa;trade&#xa;traditional&#xa;training&#xa;travel&#xa;treat&#xa;treatment&#xa;tree&#xa;trial&#xa;trip&#xa;trouble&#xa;true&#xa;truth&#xa;try&#xa;turn&#xa;tv&#xa;two&#xa;type&#xa;under&#xa;understand&#xa;unit&#xa;until&#xa;up&#xa;upon&#xa;us&#xa;use&#xa;usually&#xa;value&#xa;various&#xa;very&#xa;victim&#xa;view&#xa;violence&#xa;visit&#xa;voice&#xa;vote&#xa;wait&#xa;walk&#xa;wall&#xa;want&#xa;war&#xa;watch&#xa;water&#xa;way&#xa;we&#xa;weapon&#xa;wear&#xa;week&#xa;weight&#xa;well&#xa;west&#xa;western&#xa;what&#xa;whatever&#xa;when&#xa;where&#xa;whether&#xa;which&#xa;while&#xa;white&#xa;who&#xa;whole&#xa;whom&#xa;whose&#xa;why&#xa;wide&#xa;wife&#xa;will&#xa;win&#xa;wind&#xa;window&#xa;wish&#xa;with&#xa;within&#xa;without&#xa;woman&#xa;wonder&#xa;word&#xa;work&#xa;worker&#xa;world&#xa;worry&#xa;would&#xa;write&#xa;writer&#xa;wrong&#xa;yard&#xa;yeah&#xa;year&#xa;yes&#xa;yet&#xa;you&#xa;young&#xa;your&#xa;yourself&#xa;zip"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButton19">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tempus Sans ITC" size="18" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Submit"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton19ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
